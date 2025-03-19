@@ -648,7 +648,7 @@ h6 {
   margin-bottom: 8px;
 }
 
-.popup-form-label {
+.popup-form-lbl {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -674,7 +674,7 @@ h6 {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.poopup-form-input:focus {
+.popup-form-input:focus {
   border-color: #4d5ae5;
 }
 
