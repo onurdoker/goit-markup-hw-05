@@ -676,6 +676,7 @@ h6 {
 
 .popup-form-input:focus {
   border-color: #4d5ae5;
+  fill: #4d5ae5;
 }
 
 pop-form-input:focus ~ .form-box-svg {
