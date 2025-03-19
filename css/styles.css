@@ -686,6 +686,7 @@ pop-form-input:focus ~ .form-box-svg {
 .form-box-svg {
   width: 18px;
   height: 24px;
+  fill:#4D5AE5;
 }
 
 .popup-div-text {
