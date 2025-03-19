@@ -466,14 +466,15 @@
       <div class="footer-form-div">
         <p class="footer-form-p">Subscribe</p>
         <form name="issue_report_form" autocomplete="off" class="footer-form">
-          <label type="email" class="footer-label" aria-placeholder="E-mail" name="emailfooter" id="emailfooter">
+          <label type="email" class="footer-label">
+            <input type="email" class="footer-input" placeholder="E-mail" name="emailfooter" id="emailfooter">
           </label>
           <button type="submit" class="footer-button">
             Subscribe
-            <svg class=footer-letter-svg">
+            <svg class="footer-letter-svg">
               <use href="./images/icons.svg#icon-send"></use>
             </svg>
-            </button>
+          </button>
         </form>
 
       </div>
@@ -485,20 +486,20 @@
   <div class="popup">
     <div class="popup-container">
       <button type="button" class="popup-button">
-        <svg class="popup-svg">
-          <use href="./imagees/icons.svg#icon-close"></use>
+        <svg class="popup-svg" width="8" height="8">
+          <use href="./images/icons.svg#modal-btn-1"></use>
         </svg>
       </button>
       <p class="popup-p">
         Leave your contacts and we will call you back
       </p>
 
-      <form name="popup-form" autocomplete="off" class="popup-form">
+      <form class="popup-form">
         <div class="popup-div">
           <label for="user-name" class="popup-form-label">Name</label>
           <div class="popup-div-two">
-            <input type="text" class="popup-form-input" id="user-name" name="user-name">
-            <svg class="form-box-svg" idth="18" height="24w">
+            <input type="text" class="popup-form-input">
+            <svg class="form-box-svg" width="18px" height="24">
               <use href="./images/icons.svg#icon-user"></use>
             </svg>
           </div>
@@ -507,8 +508,8 @@
         <div class="popup-div">
           <label for="user-phone" class="popup-form-label">Phone</label>
           <div class="popup-div-two">
-            <input type="tel" class="popup-form-input" id="user-phone" name="user-phone">
-            <svg class="form-box-svg">
+            <input type="tel" class="popup-form-input">
+            <svg class="form-box-svg" width="18px" height="24">
               <use href="./images/icons.svg#icon-phone"></use>
             </svg>
           </div>
@@ -517,17 +518,17 @@
         <div class="popup-div">
           <label for="user-email" class="popup-form-label">Email</label>
           <div class="popup-div-two">
-            <input type="email" class="popup-form-input" id="user-email" name="user-email">
-            <svg class="form-box-svg">
+            <input type="email" class="popup-form-input">
+            <svg class="form-box-svg" width="18px" height="24">
               <use href="./images/icons.svg#icon-letter"></use>
             </svg>
           </div>
         </div>
 
-        <div class="popup-div">
+        <div class="popup-div-text">
           <label for="user-comment" class="popup-form-label">Comment</label>
-          <textarea name="user-comment" class="popup-form-textarea" placeholder="Text input"
-            id="user-comment"></textarea>
+          <textarea class="popup-form-textarea" placeholder="Text input" id="user-comment">
+          </textarea>
         </div>
 
         <div class="popup-check">
@@ -535,7 +536,7 @@
           <label for="user-privacy" class="form-check-label">
             <span class="popup-form-check-span">
               <svg width="10" height="8" class="popup-check-svg">
-                <use href="./images/icons.svg#icon-checkmark"></use>
+                <use href="href=./images/icons.svg#icon-privacy"></use>
               </svg>
             </span>
             I accept the terms and conditions of the
@@ -547,4 +548,5 @@
     </div>
   </div>
 </body>
+
 </html>
